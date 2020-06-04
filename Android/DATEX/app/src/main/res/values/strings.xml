@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DATEX</string>
+    <string name="appNameText">datapp main view</string>
+    <string name="ledBtnText">LED</string>
+    <string name="settingsBtnText">Settings</string>
+    <string name="dataBtnText">Data</string>
+    <string name="startbtntext">START</string>
+    <string name="stopbtntext">STOP</string>
+    <string name="backbtntext">BACK</string>
+</resources>
