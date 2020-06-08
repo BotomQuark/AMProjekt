@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- HTML file head: web page metadata -->
+	<head>
+		<meta charset="UTF-8">
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		
+		<!-- Chart.js library -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+		
+		<script type="text/javascript" src="JS/joystick.js"></script> 
+		<link rel="stylesheet" type="text/css" href="CSS/joystick.css"/>
+	</head>
+
+	<!-- HTML file body: web page content -->
+	<body>
+		<div id="container">
+			<h2 class="text-center">Joystick Position Chart</h2>
+			
+			<div id="charts" class="container border border-primary rounded mainDiv">
+				<ul class="nav">
+					<li><div class="border border-primary rounded menuitem"><span>Sample time: <span id="sampletime"></span> ms</span></div></li> 
+					<li><div class="border border-primary rounded menuitem"><span>Z level: <span id="zLevel"></span></span></div></li>  
+				</ul>
+				
+				<div class="chartContainer">
+					<canvas id="jChart"></canvas>
+				</div>
+				
+			</div>
+		</div>
+		
+	</body>
+
+</html>

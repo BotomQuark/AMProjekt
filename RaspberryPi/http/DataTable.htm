@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- HTML file head: web page metadata -->
+	<head>
+		<meta charset="UTF-8">
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		
+		<!-- Chart.js library -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+		
+		<script type="text/javascript" src="JS/datatable.js"></script> 
+		<link rel="stylesheet" type="text/css" href="CSS/datatable.css"/>
+	</head>
+
+	<!-- HTML file body: web page content -->
+	<body>
+		<div id="container">
+			<h1 class="text-center">Data Table</h1>
+			
+			<div id="content" class="container border border-primary rounded mainDiv">
+				<ul class="nav">
+					<li><div class="border border-primary rounded menuitem"><span>Sample time: <span id="sampletime"></span> ms</span></div></li>  
+					<li>
+						<select id="tableDataSelect">
+							<option value="all">All</option>
+							<option value="tph">TPH measurement</option>
+							<option value="rpy">RPY measurement</option>
+							<option value="joy">Joystick Position</option>
+							<option value="tph+rpy">THP and RPY measurement</option>
+						</select>
+					</li>
+					<li><button type="button" class="button" id="btnClear" onclick="updateTable()">Update Chart</button></li>
+				</ul>
+				
+				<div id="divTable">
+				</div>
+				
+		</div>
+	</body>
+
+</html>

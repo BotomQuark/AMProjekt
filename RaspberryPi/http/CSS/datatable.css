@@ -1,0 +1,66 @@
+#container{
+	width: 100%;
+}
+#divTable {
+	width: 100%;
+	height: 00px;
+}
+h3{
+	margin-top: 50px;
+}
+.mainDiv {
+	//width: 1000px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.nav{
+	width: 100%;
+}
+.menuitem {
+	height: 40px;
+	margin-right: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#tableDataSelect {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#content {
+	height: 520px;
+}
+
+.button{
+	font-size: 18px;
+	color: white;
+	background-color: #A01B3C;
+	padding-top:auto;
+	padding-bottom:auto;
+	width: 200px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: 2px solid #5FB02D;
+}
+li {
+	padding-top:auto;
+	padding-bottom:auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right:2px;
+}
+
+table {
+	width: 500px;
+	margin-top:10px;
+}
