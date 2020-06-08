@@ -24,14 +24,11 @@ var url = 'http://192.168.56.101/rpy.json';
 
 var baseUrl = '';
 
-var debugHelp;
-
 /**
 * @brief Updates the values of imputs in HTML
 * @param objectJSON JSON object with the configuration data
 */
 function updateConfig(jsonObject){
-	debugHelp=jsonObject;
 	url="http://"+jsonObject.ip+"/rpy.json"
 	
 	sampleTimeSec=jsonObject.sampleTime;	
@@ -58,6 +55,9 @@ function getConfigData() {
 			console.log("Ajax Config Request error");
 		},
 		cache: false
+	}).done(function(html){
+		chartInit();
+		startTimer();
 	});
 }
 
@@ -300,6 +300,4 @@ $(document).ready(() => {
 	baseUrl=window.location.href;
 	baseUrl=baseUrl.slice(0, baseUrl.length-12);
 	getConfigData();
-	startTimer();
-	chartInit();
 });

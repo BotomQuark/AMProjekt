@@ -51,6 +51,9 @@ function getConfigData() {
 			console.log("Ajax error");
 		},
 		cache: false
+	}).done(function(html){
+		generateTable();	
+		startTimer();
 	});
 }
 
@@ -331,8 +334,5 @@ $(document).ready(function(){
 	baseUrl=window.location.href;
 	baseUrl=baseUrl.slice(0, baseUrl.length-13);
 	getConfigData();
-	
-	generateTable();	
-	startTimer();
 })
 	
