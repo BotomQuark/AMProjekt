@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- HTML file head: web page metadata -->
+	<head>
+		<title>HTML Application</title>
+		<meta charset="UTF-8">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+		
+		<link rel="stylesheet" type="text/css" href="CSS/menu.css"/>
+		
+		<!--Define font-->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		
+		
+		<script type="text/javascript" src="JS/index.js"></script>
+	</head>
+
+	<!-- HTML file body: web page content -->
+	<body>
+		<div id="container">
+			<div id="sidebar">
+				<div id="logo">
+					<img src="raspblogo.png">
+				</div>
+				<!-- <a href="zad1.htm" target="pageSelectFrame">Zad.1 - Wykresy</a> -->
+				<a href="DataTable.htm" target="pageSelectFrame"><div class="menuOption"> Data Table </div></a>
+				<a href="TphChart.htm" target="pageSelectFrame"><div class="menuOption"> T/P/H Charts </div></a>
+				<a href="RpyChart.htm" target="pageSelectFrame"><div class="menuOption"> R/P/Y Charts </div></a>
+				<a href="Joystick.htm" target="pageSelectFrame"><div class="menuOption"> Joystick Position </div></a>
+				<a href="LedMatrix.htm" target="pageSelectFrame"><div class="menuOption"> Led Controller </div></a>
+				<a href="Config.htm" target="pageSelectFrame"><div class="menuOption"> Config </div></a>
+			</div>
+			<div id="content">
+				<iframe  height="100%" width="100%" name="pageSelectFrame"></iframe>
+			</div>
+			<div id="footer">
+				v1.1 Laboratoria Aplikacji Mobilnych i Wbudowanych dla Internetu przedmiotu
+			</div>
+		</div>
+	</body>
+
+</html>

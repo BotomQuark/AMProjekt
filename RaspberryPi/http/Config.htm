@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- HTML file head: web page metadata -->
+	<head>
+		<meta charset="UTF-8">
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		
+		
+		<script type="text/javascript" src="JS/config.js"></script> 
+		<link rel="stylesheet" type="text/css" href="CSS/config.css"/>
+	</head>
+
+	<!-- HTML file body: web page content -->
+	<body>
+		<div id="container">
+			<h3 id="test">Config</h3>
+			
+			<div class="configDiv">
+				<h4> IP Adress: </h4>
+				<input type="text" id="ipAdress" name="ipAdress" >
+			</div>
+			<div class="configDiv">
+				<h4> Port: </h4>
+				<input type="text" id="port" name="port" >
+			</div>
+			<div class="configDiv">
+				<h4> Sample Time[s]: </h4>
+				<input type="text" id="sampleTime" name="sampleTime" >
+			</div>
+			<div class="configDiv">
+				<h4> Sample Quantity: </h4>
+				<input type="text" id="sampleQuantity" name="sampleQuantity" >
+			</div>
+			<div class="configDiv" id="btnUpdateConfig">
+					<button type="button" class="button" onclick="updateConfig()">UPDATE</button>
+			</div>
+			<div class="configDiv" id="btnResetDefault">
+					<button type="button" class="button" onclick="resetConfig()">RESET TO DEFAULT</button>
+			</div>
+			</div>
+		</div>
+		
+	</body>
+
+</html>

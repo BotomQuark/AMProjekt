@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- HTML file head: web page metadata -->
+	<head>
+		<meta charset="UTF-8">
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		
+		<!-- Chart.js library -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+		
+	
+		<script type="text/javascript" src="JS/ledmatrix.js"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/ledmatrix.css"/>
+	</head>
+
+	<!-- HTML file body: web page content -->
+	<body>
+		<div id="container">
+			<div id="leftBar">
+				<div id="table greyBackground">
+					<div class="tableRow">
+						<div class="tableElement" id="led00" onclick="tableOnClickHandler('led00')"></div><div class="tableElement" id="led01" onclick="tableOnClickHandler('led01')"></div><div class="tableElement" id="led02" onclick="tableOnClickHandler('led02')"></div><div class="tableElement" id="led03" onclick="tableOnClickHandler('led03')"></div><div class="tableElement" id="led04" onclick="tableOnClickHandler('led04')"></div><div class="tableElement" id="led05" onclick="tableOnClickHandler('led05')"></div><div class="tableElement" id="led06" onclick="tableOnClickHandler('led06')"></div><div class="tableElement" id="led07" onclick="tableOnClickHandler('led07')"></div>				
+						<div style="clear:both;"></div>
+					</div>
+					<div class="tableRow">
+						<div class="tableElement" id="led10" onclick="tableOnClickHandler('led10')"></div><div class="tableElement" id="led11" onclick="tableOnClickHandler('led11')"></div><div class="tableElement" id="led12" onclick="tableOnClickHandler('led12')"></div><div class="tableElement" id="led13" onclick="tableOnClickHandler('led13')"></div><div class="tableElement" id="led14" onclick="tableOnClickHandler('led14')"></div><div class="tableElement" id="led15" onclick="tableOnClickHandler('led15')"></div><div class="tableElement" id="led16" onclick="tableOnClickHandler('led16')"></div><div class="tableElement" id="led17" onclick="tableOnClickHandler('led17')"></div>		
+						<div style="clear:both;"></div>
+					</div>
+					<div class="tableRow">
+						<div class="tableElement" id="led20" onclick="tableOnClickHandler('led20')"></div><div class="tableElement" id="led21" onclick="tableOnClickHandler('led21')"></div><div class="tableElement" id="led22" onclick="tableOnClickHandler('led22')"></div><div class="tableElement" id="led23" onclick="tableOnClickHandler('led23')"></div><div class="tableElement" id="led24" onclick="tableOnClickHandler('led24')"></div><div class="tableElement" id="led25" onclick="tableOnClickHandler('led25')"></div><div class="tableElement" id="led26" onclick="tableOnClickHandler('led26')"></div><div class="tableElement" id="led27" onclick="tableOnClickHandler('led27')"></div>
+						<div style="clear:both;"></div>
+					</div>
+					<div class="tableRow">
+						<div class="tableElement" id="led30" onclick="tableOnClickHandler('led30')"></div><div class="tableElement" id="led31" onclick="tableOnClickHandler('led31')"></div><div class="tableElement" id="led32" onclick="tableOnClickHandler('led32')"></div><div class="tableElement" id="led33" onclick="tableOnClickHandler('led33')"></div><div class="tableElement" id="led34" onclick="tableOnClickHandler('led34')"></div><div class="tableElement" id="led35" onclick="tableOnClickHandler('led35')"></div><div class="tableElement" id="led36" onclick="tableOnClickHandler('led36')"></div><div class="tableElement" id="led37"  onclick="tableOnClickHandler('led37')"></div>			
+						<div style="clear:both;"></div>
+					</div>
+					<div class="tableRow">
+						<div class="tableElement" id="led40" onclick="tableOnClickHandler('led40')"></div><div class="tableElement" id="led41" onclick="tableOnClickHandler('led41')"></div><div class="tableElement" id="led42" onclick="tableOnClickHandler('led42')"></div><div class="tableElement" id="led43"  onclick="tableOnClickHandler('led43')"></div><div class="tableElement" id="led44" onclick="tableOnClickHandler('led44')"></div><div class="tableElement" id="led45" onclick="tableOnClickHandler('led45')"></div><div class="tableElement" id="led46" onclick="tableOnClickHandler('led46')"></div><div class="tableElement" id="led47" onclick="tableOnClickHandler('led47')"></div>			
+						<div style="clear:both;"></div>
+					</div>
+					<div class="tableRow">
+						<div class="tableElement" id="led50" onclick="tableOnClickHandler('led50')"></div><div class="tableElement" id="led51" onclick="tableOnClickHandler('led51')"></div><div class="tableElement" id="led52" onclick="tableOnClickHandler('led52')"></div><div class="tableElement" id="led53"  onclick="tableOnClickHandler('led53')"></div><div class="tableElement" id="led54" onclick="tableOnClickHandler('led54')"></div><div class="tableElement" id="led55" onclick="tableOnClickHandler('led55')"></div><div class="tableElement" id="led56" onclick="tableOnClickHandler('led56')"></div><div class="tableElement" id="led57"  onclick="tableOnClickHandler('led57')"></div>
+						<div style="clear:both;"></div>
+					</div>
+					<div class="tableRow">
+						<div class="tableElement" id="led60" onclick="tableOnClickHandler('led60')"></div><div class="tableElement" id="led61" onclick="tableOnClickHandler('led61')"></div><div class="tableElement" id="led62" onclick="tableOnClickHandler('led62')"></div><div class="tableElement" id="led63" onclick="tableOnClickHandler('led63')"></div><div class="tableElement" id="led64" onclick="tableOnClickHandler('led64')"></div><div class="tableElement" id="led65" onclick="tableOnClickHandler('led65')"></div><div class="tableElement" id="led66" onclick="tableOnClickHandler('led66')"></div><div class="tableElement" id="led67" onclick="tableOnClickHandler('led67')"></div>				
+						<div style="clear:both;"></div>
+					</div>
+					<div class="tableRow">
+						<div class="tableElement" id="led70" onclick="tableOnClickHandler('led70')"></div><div class="tableElement" id="led71" onclick="tableOnClickHandler('led71')"></div><div class="tableElement" id="led72" onclick="tableOnClickHandler('led72')"></div><div class="tableElement" id="led73" onclick="tableOnClickHandler('led73')"></div><div class="tableElement" id="led74" onclick="tableOnClickHandler('led74')"></div><div class="tableElement" id="led75" onclick="tableOnClickHandler('led75')"></div><div class="tableElement" id="led76" onclick="tableOnClickHandler('led76')"></div><div class="tableElement" id="led77" onclick="tableOnClickHandler('led77')"></div>		
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+				<div id="sliderContainer">
+					<p style="color: red;">Red:</p><input type="range" min="0" max="255" value="0" class="slider" id="redSlider" onchange="updateColor('r')"> <br/>
+					<p style="color: green;">Green:</p><input type="range" min="0" max="255" value="0" class="slider" id="greenSlider" onchange="updateColor('g')"> <br/>
+					<p style="color: blue;">Blue:</p><input type="range" min="0" max="255" value="0" class="slider" id="blueSlider" onchange="updateColor('b')"> <br/>
+				</div>
+			</div>
+			<div id="rightBar">
+				<h3> Led Matrix Control </h3>
+				<h4> Preview: </h4>
+				<div id="colorPreview"> </div>
+				<button type="button" class="button" id="btnClear" onclick="clearColors()">CLEAR</button>
+				<button type="button" class="button" id="btnSend" onclick="sendRequest()">SEND</button>	
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		
+	</body>
+
+</html>
