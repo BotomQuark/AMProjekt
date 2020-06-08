@@ -45,7 +45,13 @@ function getConfigData() {
 			console.log("Ajax error");
 		},
 		cache: false
+	}).done(function(html){
+		startTimer();
+		$("#sampletime").text(sampleTimeMsec.toString());
+		$("#zLevel").text('0');
+		chartInit();
 	});
+	
 }
 
 
@@ -169,9 +175,4 @@ $(document).ready(() => {
 	baseUrl=window.location.href;
 	baseUrl=baseUrl.slice(0, baseUrl.length-12);
 	getConfigData();
-	localStorage.clear();
-	startTimer();
-	$("#sampletime").text(sampleTimeMsec.toString());
-	$("#zLevel").text('0');
-	chartInit();
 });
