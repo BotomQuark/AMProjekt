@@ -34,7 +34,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class ChartsActivity extends AppCompatActivity {
+public class RPYActivity extends AppCompatActivity {
 
     int sampleTime =DATA.DEFAULT_SAMPLE_TIME;
     String ipAddress =DATA.DEFAULT_IP_ADDRESS;
@@ -47,8 +47,8 @@ public class ChartsActivity extends AppCompatActivity {
     private final int dataGraph1MaxDataPointsNumber = 1000;
     private final double dataGraph1MaxX = 10.0d;
     private final double dataGraph1MinX =  0.0d;
-    private final double dataGraph1MaxY =  105.0d;
-    private final double dataGraph1MinY = -30.0d;
+    private final double dataGraph1MaxY =  360.0d;
+    private final double dataGraph1MinY = 0.0d;
 
     /* Graph2 */
     private GraphView dataGraph2;
@@ -56,8 +56,8 @@ public class ChartsActivity extends AppCompatActivity {
     private final int dataGraph2MaxDataPointsNumber = 1000;
     private final double dataGraph2MaxX = 10.0d;
     private final double dataGraph2MinX =  0.0d;
-    private final double dataGraph2MaxY =  1260.0d;
-    private final double dataGraph2MinY = 260.0d;
+    private final double dataGraph2MaxY =  360.0d;
+    private final double dataGraph2MinY = 0.0d;
 
     /* Graph3 */
     private GraphView dataGraph3;
@@ -65,7 +65,7 @@ public class ChartsActivity extends AppCompatActivity {
     private final int dataGraph3MaxDataPointsNumber = 1000;
     private final double dataGraph3MaxX = 10.0d;
     private final double dataGraph3MinX =  0.0d;
-    private final double dataGraph3MaxY =  100.0d;
+    private final double dataGraph3MaxY =  360.0d;
     private final double dataGraph3MinY = 0.0d;
 
     /* BEGIN request timer */
@@ -84,7 +84,7 @@ public class ChartsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_charts);
+        setContentView(R.layout.activity_rpy);
 
         // get the Intent that started this Activity
         Intent intent = getIntent();
@@ -99,12 +99,15 @@ public class ChartsActivity extends AppCompatActivity {
 
         /* BEGIN initialize GraphView1 */
         // https://github.com/jjoe64/GraphView/wiki
-        dataGraph1 = (GraphView)findViewById(R.id.dataGraph1);
+        dataGraph1 = (GraphView)findViewById(R.id.dataGraph1_rpy);
         dataSeries1 = new LineGraphSeries<>(new DataPoint[]{});
         dataGraph1.addSeries(dataSeries1);
+
         dataGraph1.getViewport().setXAxisBoundsManual(true);
         dataGraph1.getViewport().setMinX(dataGraph1MinX);
         dataGraph1.getViewport().setMaxX(dataGraph1MaxX);
+
+         
         dataGraph1.getViewport().setYAxisBoundsManual(true);
         dataGraph1.getViewport().setMinY(dataGraph1MinY);
         dataGraph1.getViewport().setMaxY(dataGraph1MaxY);
@@ -112,12 +115,14 @@ public class ChartsActivity extends AppCompatActivity {
 
         /* BEGIN initialize GraphView2 */
         // https://github.com/jjoe64/GraphView/wiki
-        dataGraph2 = (GraphView)findViewById(R.id.dataGraph2);
+        dataGraph2 = (GraphView)findViewById(R.id.dataGraph2_rpy);
         dataSeries2 = new LineGraphSeries<>(new DataPoint[]{});
         dataGraph2.addSeries(dataSeries2);
+
         dataGraph2.getViewport().setXAxisBoundsManual(true);
         dataGraph2.getViewport().setMinX(dataGraph2MinX);
         dataGraph2.getViewport().setMaxX(dataGraph2MaxX);
+
         dataGraph2.getViewport().setYAxisBoundsManual(true);
         dataGraph2.getViewport().setMinY(dataGraph2MinY);
         dataGraph2.getViewport().setMaxY(dataGraph2MaxY);
@@ -125,36 +130,38 @@ public class ChartsActivity extends AppCompatActivity {
 
         /* BEGIN initialize GraphView3 */
         // https://github.com/jjoe64/GraphView/wiki
-        dataGraph3 = (GraphView)findViewById(R.id.dataGraph3);
+        dataGraph3 = (GraphView)findViewById(R.id.dataGraph3_rpy);
         dataSeries3 = new LineGraphSeries<>(new DataPoint[]{});
         dataGraph3.addSeries(dataSeries3);
+
         dataGraph3.getViewport().setXAxisBoundsManual(true);
         dataGraph3.getViewport().setMinX(dataGraph3MinX);
         dataGraph3.getViewport().setMaxX(dataGraph3MaxX);
+
         dataGraph3.getViewport().setYAxisBoundsManual(true);
         dataGraph3.getViewport().setMinY(dataGraph3MinY);
         dataGraph3.getViewport().setMaxY(dataGraph3MaxY);
         /* END initialize GraphView */
 
         // Initialize Volley request queue
-        queue = Volley.newRequestQueue(ChartsActivity.this);
+        queue = Volley.newRequestQueue(RPYActivity.this);
 
     }
     /**
      * @brief Create JSON file URL from IoT server IP.
-     * @param ip IP address (string)
+     * @param ipAddress IP address (string)
      * @retval GET request URL
      */
     private String getURL(String ipAddress) {
-        return ("http://" + ipAddress + "/" + DATA.FILE_NAME);
+        return ("http://" + ipAddress + "/" + DATA.RPY_FILE_NAME);
     }
     public void btns_onClick(View v) {
         switch (v.getId()) {
-            case R.id.startBtn: {
+            case R.id.startBtn_rpy: {
                 startRequestTimer();
                 break;
             }
-            case R.id.stopBtn: {
+            case R.id.stopBtn_rpy: {
                 stopRequestTimerTask();
                 break;
             }
@@ -307,27 +314,27 @@ public class ChartsActivity extends AppCompatActivity {
     /**
      * @brief GET response handling - chart data series updated with IoT server data.
      */
-    private void drawcharts(double temp, double press, double humi)
+    private void drawcharts(double roll, double pitch, double yaw)
     {
         // update plot series
         double timeStamp = requestTimerTimeStamp / 1000.0; // [sec]
 
         boolean scrollGraph1 = (timeStamp > dataGraph1MaxX);
-        dataSeries1.appendData(new DataPoint(timeStamp, temp), scrollGraph1, sampleQuantity);
+        dataSeries1.appendData(new DataPoint(timeStamp, roll), scrollGraph1, sampleQuantity);
 
         // refresh chart
         dataGraph1.onDataChanged(true, true);
 
         // update plot series
         boolean scrollGraph2 = (timeStamp > dataGraph2MaxX);
-        dataSeries2.appendData(new DataPoint(timeStamp, press), scrollGraph2, sampleQuantity);
+        dataSeries2.appendData(new DataPoint(timeStamp, pitch), scrollGraph2, sampleQuantity);
 
         // refresh chart
         dataGraph2.onDataChanged(true, true);
 
         // update plot series
         boolean scrollGraph3 = (timeStamp > dataGraph3MaxX);
-        dataSeries3.appendData(new DataPoint(timeStamp, humi), scrollGraph3, sampleQuantity);
+        dataSeries3.appendData(new DataPoint(timeStamp, yaw), scrollGraph3, sampleQuantity);
 
         // refresh chart
         dataGraph3.onDataChanged(true, true);
@@ -341,10 +348,10 @@ public class ChartsActivity extends AppCompatActivity {
             requestTimerTimeStamp += getValidTimeStampIncrease(requestTimerCurrentTime);
 
             // get raw data from JSON response
-            double temp = getRawDataFromResponse(response,"temp");
-            double press = getRawDataFromResponse(response,"press");
-            double humi = getRawDataFromResponse(response,"humi");
-            drawcharts(temp,press,humi);
+            double roll = getRawDataFromResponse(response,"roll");
+            double pitch = getRawDataFromResponse(response,"pitch");
+            double yaw = getRawDataFromResponse(response,"yaw");
+            drawcharts(roll,pitch,yaw);
 
 
 

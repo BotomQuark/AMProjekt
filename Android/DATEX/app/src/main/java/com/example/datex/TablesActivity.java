@@ -1,8 +1,5 @@
 package com.example.datex;
 
-import androidx.appcompat.app.AppCompatActivity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -11,62 +8,35 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.jjoe64.graphview.GraphView;
-import com.jjoe64.graphview.series.DataPoint;
-import com.jjoe64.graphview.series.LineGraphSeries;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.Timer;
 import java.util.TimerTask;
+import java.util.Vector;
 
-import static java.lang.Double.NaN;
-import static java.lang.Double.isNaN;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+public class TablesActivity extends AppCompatActivity {
 
-public class ChartsActivity extends AppCompatActivity {
 
     int sampleTime =DATA.DEFAULT_SAMPLE_TIME;
     String ipAddress =DATA.DEFAULT_IP_ADDRESS;
     int sampleQuantity =DATA.DEFAULT_SAMPLE_QUANTITY;
+    TextView virables[];
+    TextView name_view;
+    TextView value_view;
+    TextView unit_view;
+    int clearing_buffor_size;
 
-
-    /* Graph1 */
-    private GraphView dataGraph1;
-    private LineGraphSeries<DataPoint> dataSeries1;
-    private final int dataGraph1MaxDataPointsNumber = 1000;
-    private final double dataGraph1MaxX = 10.0d;
-    private final double dataGraph1MinX =  0.0d;
-    private final double dataGraph1MaxY =  105.0d;
-    private final double dataGraph1MinY = -30.0d;
-
-    /* Graph2 */
-    private GraphView dataGraph2;
-    private LineGraphSeries<DataPoint> dataSeries2;
-    private final int dataGraph2MaxDataPointsNumber = 1000;
-    private final double dataGraph2MaxX = 10.0d;
-    private final double dataGraph2MinX =  0.0d;
-    private final double dataGraph2MaxY =  1260.0d;
-    private final double dataGraph2MinY = 260.0d;
-
-    /* Graph3 */
-    private GraphView dataGraph3;
-    private LineGraphSeries<DataPoint> dataSeries3;
-    private final int dataGraph3MaxDataPointsNumber = 1000;
-    private final double dataGraph3MaxX = 10.0d;
-    private final double dataGraph3MinX =  0.0d;
-    private final double dataGraph3MaxY =  100.0d;
-    private final double dataGraph3MinY = 0.0d;
 
     /* BEGIN request timer */
     private RequestQueue queue;
@@ -84,7 +54,7 @@ public class ChartsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_charts);
+        setContentView(R.layout.activity_tables);
 
         // get the Intent that started this Activity
         Intent intent = getIntent();
@@ -97,64 +67,30 @@ public class ChartsActivity extends AppCompatActivity {
 
         sampleQuantity = configBundle.getInt(DATA.CONFIG_SAMPLE_QUANTITY, DATA.DEFAULT_SAMPLE_QUANTITY);
 
-        /* BEGIN initialize GraphView1 */
-        // https://github.com/jjoe64/GraphView/wiki
-        dataGraph1 = (GraphView)findViewById(R.id.dataGraph1);
-        dataSeries1 = new LineGraphSeries<>(new DataPoint[]{});
-        dataGraph1.addSeries(dataSeries1);
-        dataGraph1.getViewport().setXAxisBoundsManual(true);
-        dataGraph1.getViewport().setMinX(dataGraph1MinX);
-        dataGraph1.getViewport().setMaxX(dataGraph1MaxX);
-        dataGraph1.getViewport().setYAxisBoundsManual(true);
-        dataGraph1.getViewport().setMinY(dataGraph1MinY);
-        dataGraph1.getViewport().setMaxY(dataGraph1MaxY);
-        /* END initialize GraphView */
-
-        /* BEGIN initialize GraphView2 */
-        // https://github.com/jjoe64/GraphView/wiki
-        dataGraph2 = (GraphView)findViewById(R.id.dataGraph2);
-        dataSeries2 = new LineGraphSeries<>(new DataPoint[]{});
-        dataGraph2.addSeries(dataSeries2);
-        dataGraph2.getViewport().setXAxisBoundsManual(true);
-        dataGraph2.getViewport().setMinX(dataGraph2MinX);
-        dataGraph2.getViewport().setMaxX(dataGraph2MaxX);
-        dataGraph2.getViewport().setYAxisBoundsManual(true);
-        dataGraph2.getViewport().setMinY(dataGraph2MinY);
-        dataGraph2.getViewport().setMaxY(dataGraph2MaxY);
-        /* END initialize GraphView */
-
-        /* BEGIN initialize GraphView3 */
-        // https://github.com/jjoe64/GraphView/wiki
-        dataGraph3 = (GraphView)findViewById(R.id.dataGraph3);
-        dataSeries3 = new LineGraphSeries<>(new DataPoint[]{});
-        dataGraph3.addSeries(dataSeries3);
-        dataGraph3.getViewport().setXAxisBoundsManual(true);
-        dataGraph3.getViewport().setMinX(dataGraph3MinX);
-        dataGraph3.getViewport().setMaxX(dataGraph3MaxX);
-        dataGraph3.getViewport().setYAxisBoundsManual(true);
-        dataGraph3.getViewport().setMinY(dataGraph3MinY);
-        dataGraph3.getViewport().setMaxY(dataGraph3MaxY);
-        /* END initialize GraphView */
 
         // Initialize Volley request queue
-        queue = Volley.newRequestQueue(ChartsActivity.this);
+        queue = Volley.newRequestQueue(TablesActivity.this);
 
     }
     /**
      * @brief Create JSON file URL from IoT server IP.
-     * @param ip IP address (string)
+     * @param ipAddress IP address (string)
      * @retval GET request URL
      */
     private String getURL(String ipAddress) {
-        return ("http://" + ipAddress + "/" + DATA.FILE_NAME);
+        return ("http://" + ipAddress + "/" + DATA.FILE_NAME_TABLES);
     }
+    private String getURL_RPY(String ipAddress) {
+        return ("http://" + ipAddress + "/" + DATA.RPY_FILE_NAME);
+    }
+
     public void btns_onClick(View v) {
         switch (v.getId()) {
-            case R.id.startBtn: {
+            case R.id.startBtnTable: {
                 startRequestTimer();
                 break;
             }
-            case R.id.stopBtn: {
+            case R.id.stopBtnTable: {
                 stopRequestTimerTask();
                 break;
             }
@@ -212,25 +148,28 @@ public class ChartsActivity extends AppCompatActivity {
         }
     }
 
-    private double getRawDataFromResponse(String response, String item) {
-        JSONObject jObject;
-        double x = Double.NaN;
+    private String getRawDataFromResponse(String response, Integer item,String name) {
+        JSONArray jObject;
+       JSONObject x = null;
+        String out = null;
 
         // Create generic JSON object form string
         try {
-            jObject = new JSONObject(response);
+            jObject = new JSONArray(response);
         } catch (JSONException e) {
             e.printStackTrace();
-            return x;
+            return out;
         }
 
         // Read chart data form JSON object
         try {
-            x = (double)jObject.get(item);
+            x = jObject.getJSONObject(item);
+            out = x.get(name).toString();
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        return x;
+
+        return out;
     }
 
 
@@ -241,8 +180,9 @@ public class ChartsActivity extends AppCompatActivity {
         requestTimerTask = new TimerTask() {
             public void run() {
                 handler.post(new Runnable() {
-                    public void run() { sendGetRequest(); }
+                    public void run() { sendGetRequest();}
                 });
+
             }
         };
     }
@@ -260,7 +200,13 @@ public class ChartsActivity extends AppCompatActivity {
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
-                    public void onResponse(String response) { responseHandling(response); }
+                    public void onResponse(String response) {
+                        try {
+                            responseHandling(response);
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
                 },
                 new Response.ErrorListener() {
                     @Override
@@ -270,6 +216,7 @@ public class ChartsActivity extends AppCompatActivity {
         // Add the request to the RequestQueue.
         queue.add(stringRequest);
     }
+
 
 
     /**
@@ -307,45 +254,92 @@ public class ChartsActivity extends AppCompatActivity {
     /**
      * @brief GET response handling - chart data series updated with IoT server data.
      */
-    private void drawcharts(double temp, double press, double humi)
-    {
-        // update plot series
-        double timeStamp = requestTimerTimeStamp / 1000.0; // [sec]
 
-        boolean scrollGraph1 = (timeStamp > dataGraph1MaxX);
-        dataSeries1.appendData(new DataPoint(timeStamp, temp), scrollGraph1, sampleQuantity);
-
-        // refresh chart
-        dataGraph1.onDataChanged(true, true);
-
-        // update plot series
-        boolean scrollGraph2 = (timeStamp > dataGraph2MaxX);
-        dataSeries2.appendData(new DataPoint(timeStamp, press), scrollGraph2, sampleQuantity);
-
-        // refresh chart
-        dataGraph2.onDataChanged(true, true);
-
-        // update plot series
-        boolean scrollGraph3 = (timeStamp > dataGraph3MaxX);
-        dataSeries3.appendData(new DataPoint(timeStamp, humi), scrollGraph3, sampleQuantity);
-
-        // refresh chart
-        dataGraph3.onDataChanged(true, true);
-
-    }
-    private void responseHandling(String response)
-    {
+    private void responseHandling(String response) throws JSONException {
         if(requestTimer != null) {
             // get time stamp with SystemClock
             long requestTimerCurrentTime = SystemClock.uptimeMillis(); // current time
             requestTimerTimeStamp += getValidTimeStampIncrease(requestTimerCurrentTime);
+            double timeStamp = requestTimerTimeStamp / 1000.0; // [sec]
 
             // get raw data from JSON response
-            double temp = getRawDataFromResponse(response,"temp");
-            double press = getRawDataFromResponse(response,"press");
-            double humi = getRawDataFromResponse(response,"humi");
-            drawcharts(temp,press,humi);
+            String data1 = "error";
+            String data2 = "error";
+            String data3 = "error";
 
+
+            Vector<String>buffor  = new Vector<String>();
+            // set ip text in box
+
+
+            int i = 0;
+
+
+            while (true) {
+                data1 = getRawDataFromResponse(response, i, "name");
+                if (data1 == null) {
+                    break;
+                }
+                data2 = getRawDataFromResponse(response, i + 1, "value");
+                if (data2 == null) {
+                    break;
+                }
+                data3 = getRawDataFromResponse(response, i + 2, "unit");
+                if (data3 == null) {
+                    break;
+                }
+
+                buffor.add(data1);
+                buffor.add(data2);
+                buffor.add(data3);
+
+
+                i = i + 3;
+            }
+
+            int buffer_iteration = 0;
+            int id = 1;
+            //clearng textview
+            while (buffer_iteration< clearing_buffor_size) {
+
+                name_view = (TextView)findViewById(getResources().getIdentifier("name"+ id, "id", getPackageName()));
+                name_view.setText(null);
+
+
+                value_view= (TextView) findViewById(getResources().getIdentifier("value"+id, "id", getPackageName()));
+                value_view.setText(null);
+
+
+                unit_view = (TextView) findViewById(getResources().getIdentifier("unit"+id, "id", getPackageName()));
+                unit_view.setText(null);
+                id++;
+                buffer_iteration = buffer_iteration + 3;
+            }
+
+            id=1;
+            buffer_iteration = 0;
+            //set data to textview
+            while (buffer_iteration < buffor.size()) {
+
+                String name = buffor.get(buffer_iteration);
+                String value = buffor.get(buffer_iteration + 1);
+                String unit = buffor.get(buffer_iteration + 2);
+                name_view = (TextView)findViewById(getResources().getIdentifier("name"+ id, "id", getPackageName()));
+                name_view.setText(name);
+
+
+                value_view= (TextView) findViewById(getResources().getIdentifier("value"+id, "id", getPackageName()));
+                value_view.setText(value);
+
+
+                unit_view = (TextView) findViewById(getResources().getIdentifier("unit"+id, "id", getPackageName()));
+                unit_view.setText(unit);
+                id++;
+                buffer_iteration = buffer_iteration + 3;
+            }
+
+            clearing_buffor_size=buffor.size();
+            buffor.clear();
 
 
             // remember previous time stamp

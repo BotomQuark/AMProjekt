@@ -7,4 +7,5 @@
     <string name="startbtntext">START</string>
     <string name="stopbtntext">STOP</string>
     <string name="backbtntext">BACK</string>
+    <string name="zaxisvalue">zAxisValue</string>
 </resources>

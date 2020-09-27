@@ -42,22 +42,6 @@
             android:inputType="textUri"
             android:text="10.10.0.173" />
 
-        <TextView
-            android:id="@+id/textViewPort"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Port:"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/portEditTextConfig"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="25dp"
-            android:ems="10"
-            android:importantForAutofill="no"
-            android:inputType="numberDecimal"
-            android:text="22" />
 
         <TextView
             android:layout_width="match_parent"

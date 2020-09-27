@@ -34,19 +34,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-
 public class MainActivity extends AppCompatActivity {
 
     /* BEGIN config data */
     private String ipAddress = DATA.DEFAULT_IP_ADDRESS;
     private int sampleTime = DATA.DEFAULT_SAMPLE_TIME;
+    private int sampleQuantity = DATA.DEFAULT_SAMPLE_QUANTITY;
+    private Intent dataIntent;
     /* END config data */
 
-    /* BEGIN widgets */
-    private TextView textViewIP;
-    private TextView textViewSampleTime;
-    private TextView textViewError;
-    /* END widgets */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,6 +65,30 @@ public class MainActivity extends AppCompatActivity {
                 configurebutton_data();
                 break;
             }
+
+
+            case R.id.button_tables: {
+                configurebutton_tables();
+
+                break;
+            }
+
+            case R.id.button_LED: {
+                dataIntent=new Intent(this, LedMatrixActivity.class);
+                getDataIntent();
+                startActivity(dataIntent);
+                break;
+
+            }
+            case R.id.button_joystick: {
+                configurebutton_joystick();
+
+                break;
+            }
+            case R.id.button_rpy: {
+                configurebutton_rpy();
+                break;
+            }
             default: {
                 // do nothing
             }
@@ -88,6 +108,10 @@ public class MainActivity extends AppCompatActivity {
             String sampleTimeText = dataIntent.getStringExtra(DATA.CONFIG_SAMPLE_TIME);
             sampleTime = Integer.parseInt(sampleTimeText);
 
+            // Sample quantity
+            String sampleQuantityText = dataIntent.getStringExtra(DATA.CONFIG_SAMPLE_QUANTITY);
+            sampleQuantity = Integer.parseInt(sampleQuantityText);
+
         }
     }
 
@@ -97,8 +121,40 @@ public class MainActivity extends AppCompatActivity {
                 Intent openDataIntent = new Intent(this, ChartsActivity.class);
                 Bundle configBundle = new Bundle();
                 configBundle.putInt(DATA.CONFIG_SAMPLE_TIME, sampleTime);
+                configBundle.putString(DATA.CONFIG_IP_ADDRESS, ipAddress);//to
+                configBundle.putInt(DATA.CONFIG_SAMPLE_QUANTITY, sampleQuantity);
                 openDataIntent.putExtras(configBundle);
                 startActivity(openDataIntent);
+    }
+
+    private void configurebutton_joystick() {
+        Intent openDataIntent = new Intent(this, JoystickActivity.class);
+        Bundle configBundle = new Bundle();
+        configBundle.putInt(DATA.CONFIG_SAMPLE_TIME, sampleTime);
+        configBundle.putString(DATA.CONFIG_IP_ADDRESS, ipAddress);//to
+        configBundle.putInt(DATA.CONFIG_SAMPLE_QUANTITY, sampleQuantity);
+        openDataIntent.putExtras(configBundle);
+        startActivity(openDataIntent);
+    }
+    private void configurebutton_rpy() {
+        Intent openDataIntent = new Intent(this, RPYActivity.class);
+        Bundle configBundle = new Bundle();
+        configBundle.putInt(DATA.CONFIG_SAMPLE_TIME, sampleTime);
+        configBundle.putString(DATA.CONFIG_IP_ADDRESS, ipAddress);//to
+        configBundle.putInt(DATA.CONFIG_SAMPLE_QUANTITY, sampleQuantity);
+        openDataIntent.putExtras(configBundle);
+        startActivity(openDataIntent);
+    }
+
+
+    private void configurebutton_tables() {
+        Intent openDataIntent = new Intent(this, TablesActivity.class);
+        Bundle configBundle = new Bundle();
+        configBundle.putInt(DATA.CONFIG_SAMPLE_TIME, sampleTime);
+        configBundle.putString(DATA.CONFIG_IP_ADDRESS, ipAddress);//to
+        configBundle.putInt(DATA.CONFIG_SAMPLE_QUANTITY, sampleQuantity);
+        openDataIntent.putExtras(configBundle);
+        startActivity(openDataIntent);
     }
 
     private void configurebutton_settings() {
@@ -106,10 +162,20 @@ public class MainActivity extends AppCompatActivity {
                 Bundle configBundle = new Bundle();
                 configBundle.putString(DATA.CONFIG_IP_ADDRESS, ipAddress);
                 configBundle.putInt(DATA.CONFIG_SAMPLE_TIME, sampleTime);
+                configBundle.putInt(DATA.CONFIG_SAMPLE_QUANTITY, sampleQuantity);
                 openConfigIntent.putExtras(configBundle);
                 startActivityForResult(openConfigIntent, DATA.REQUEST_CODE_CONFIG);
 
 
+    }
+
+    private void getDataIntent(){
+        Bundle dataBundle = new Bundle();
+        dataBundle.putString(DATA.CONFIG_IP_ADDRESS, ipAddress);
+        dataBundle.putInt(DATA.CONFIG_SAMPLE_TIME, sampleTime);
+        dataIntent.putExtra(DATA.CONFIG_IP_ADDRESS, ipAddress);
+        dataIntent.putExtra(DATA.CONFIG_SAMPLE_TIME, Integer.toString(sampleTime));
+        dataIntent.putExtras(dataBundle);
     }
 
 

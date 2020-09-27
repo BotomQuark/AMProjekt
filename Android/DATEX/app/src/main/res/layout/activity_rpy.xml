@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChartsActivity">
+    tools:context=".RPYActivity">
 
 
     <LinearLayout
@@ -23,11 +23,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Temperature"
+            android:text="Roll"
             android:textSize="15sp" />
 
         <com.jjoe64.graphview.GraphView
-            android:id="@+id/dataGraph1"
+            android:id="@+id/dataGraph1_rpy"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:layout_marginBottom="15dp"
@@ -39,11 +39,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Pressure"
+            android:text="Pitch"
             android:textSize="15sp" />
 
         <com.jjoe64.graphview.GraphView
-            android:id="@+id/dataGraph2"
+            android:id="@+id/dataGraph2_rpy"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:layout_marginBottom="15dp"
@@ -55,11 +55,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Humidity"
+            android:text="Yaw"
             android:textSize="15sp" />
 
         <com.jjoe64.graphview.GraphView
-            android:id="@+id/dataGraph3"
+            android:id="@+id/dataGraph3_rpy"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:layout_marginBottom="25dp"
@@ -83,7 +83,7 @@
             app:layout_constraintVertical_bias="0.1">
 
             <Button
-                android:id="@+id/startBtn"
+                android:id="@+id/startBtn_rpy"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
                 android:layout_weight="1" />
 
             <Button
-                android:id="@+id/stopBtn"
+                android:id="@+id/stopBtn_rpy"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"

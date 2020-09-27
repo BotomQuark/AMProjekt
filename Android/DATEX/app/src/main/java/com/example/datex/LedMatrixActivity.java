@@ -1,10 +1,9 @@
-package com.example.myapplication;
+package com.example.datex;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TableLayout;
 import android.widget.TextView;
@@ -29,7 +28,7 @@ public class LedMatrixActivity extends AppCompatActivity {
 
     /*BEGIN VARIABLES*/
     //Ip address
-    private String ipAddress = COMMON.DEFAULT_IP_ADDRESS;
+    private String ipAddress = DATA.DEFAULT_IP_ADDRESS;
 
     //Widgets
     SeekBar seekBarR, seekBarG, seekBarB;
@@ -68,7 +67,7 @@ public class LedMatrixActivity extends AppCompatActivity {
         configBundle = intent.getExtras();
 
         /*BEGIN TEXT INIT*/
-        ipAddress = configBundle.getString(COMMON.CONFIG_IP_ADDRESS, COMMON.DEFAULT_IP_ADDRESS);
+        ipAddress = configBundle.getString(DATA.CONFIG_IP_ADDRESS, DATA.DEFAULT_IP_ADDRESS);
 
         ConnectTextView=findViewById(R.id.LedConnectTextView);
         ConnectTextView.setText("Connecting to: "+getURL(ipAddress));
@@ -214,7 +213,7 @@ public class LedMatrixActivity extends AppCompatActivity {
      * @retval URL address
      */
     private String getURL(String ip){
-        return ("http://" + ip + "/" + COMMON.LED_FILE_NAME);
+        return ("http://" + ip + "/" + DATA.LED_FILE_NAME);
     }
 
 
@@ -359,6 +358,7 @@ public class LedMatrixActivity extends AppCompatActivity {
                         if( msg != null) {
                             Log.d("Error.Response", msg);
                         } else {
+                            Log.d("Error.Response", "UNKNOWN");
                             // error type specific code
                         }
                     }

@@ -1,8 +1,7 @@
 package com.example.datex;
 
 import androidx.appcompat.app.AppCompatActivity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -19,7 +18,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
-import com.jjoe64.graphview.series.LineGraphSeries;
+import com.jjoe64.graphview.series.PointsGraphSeries;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -27,46 +26,21 @@ import org.json.JSONObject;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import static java.lang.Double.NaN;
-import static java.lang.Double.isNaN;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-
-public class ChartsActivity extends AppCompatActivity {
+public class JoystickActivity extends AppCompatActivity {
 
     int sampleTime =DATA.DEFAULT_SAMPLE_TIME;
     String ipAddress =DATA.DEFAULT_IP_ADDRESS;
     int sampleQuantity =DATA.DEFAULT_SAMPLE_QUANTITY;
-
+    TextView z_val;
 
     /* Graph1 */
-    private GraphView dataGraph1;
-    private LineGraphSeries<DataPoint> dataSeries1;
+    private GraphView dataGraph_joystick;
+    private PointsGraphSeries<DataPoint> dataSeriesx;
     private final int dataGraph1MaxDataPointsNumber = 1000;
     private final double dataGraph1MaxX = 10.0d;
-    private final double dataGraph1MinX =  0.0d;
-    private final double dataGraph1MaxY =  105.0d;
-    private final double dataGraph1MinY = -30.0d;
-
-    /* Graph2 */
-    private GraphView dataGraph2;
-    private LineGraphSeries<DataPoint> dataSeries2;
-    private final int dataGraph2MaxDataPointsNumber = 1000;
-    private final double dataGraph2MaxX = 10.0d;
-    private final double dataGraph2MinX =  0.0d;
-    private final double dataGraph2MaxY =  1260.0d;
-    private final double dataGraph2MinY = 260.0d;
-
-    /* Graph3 */
-    private GraphView dataGraph3;
-    private LineGraphSeries<DataPoint> dataSeries3;
-    private final int dataGraph3MaxDataPointsNumber = 1000;
-    private final double dataGraph3MaxX = 10.0d;
-    private final double dataGraph3MinX =  0.0d;
-    private final double dataGraph3MaxY =  100.0d;
-    private final double dataGraph3MinY = 0.0d;
+    private final double dataGraph1MinX =  -10.0d;
+    private final double dataGraph1MaxY =  10.0d;
+    private final double dataGraph1MinY = -10.0d;
 
     /* BEGIN request timer */
     private RequestQueue queue;
@@ -84,7 +58,7 @@ public class ChartsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_charts);
+        setContentView(R.layout.activity_joystick);
 
         // get the Intent that started this Activity
         Intent intent = getIntent();
@@ -99,62 +73,37 @@ public class ChartsActivity extends AppCompatActivity {
 
         /* BEGIN initialize GraphView1 */
         // https://github.com/jjoe64/GraphView/wiki
-        dataGraph1 = (GraphView)findViewById(R.id.dataGraph1);
-        dataSeries1 = new LineGraphSeries<>(new DataPoint[]{});
-        dataGraph1.addSeries(dataSeries1);
-        dataGraph1.getViewport().setXAxisBoundsManual(true);
-        dataGraph1.getViewport().setMinX(dataGraph1MinX);
-        dataGraph1.getViewport().setMaxX(dataGraph1MaxX);
-        dataGraph1.getViewport().setYAxisBoundsManual(true);
-        dataGraph1.getViewport().setMinY(dataGraph1MinY);
-        dataGraph1.getViewport().setMaxY(dataGraph1MaxY);
-        /* END initialize GraphView */
+        dataGraph_joystick = (GraphView)findViewById(R.id.dataGraph_joystick);
+        dataSeriesx = new PointsGraphSeries<>(new DataPoint[]{});
+        dataGraph_joystick.addSeries(dataSeriesx);
+        dataGraph_joystick.getViewport().setXAxisBoundsManual(true);
+        dataGraph_joystick.getViewport().setMinX(dataGraph1MinX);
+        dataGraph_joystick.getViewport().setMaxX(dataGraph1MaxX);
 
-        /* BEGIN initialize GraphView2 */
-        // https://github.com/jjoe64/GraphView/wiki
-        dataGraph2 = (GraphView)findViewById(R.id.dataGraph2);
-        dataSeries2 = new LineGraphSeries<>(new DataPoint[]{});
-        dataGraph2.addSeries(dataSeries2);
-        dataGraph2.getViewport().setXAxisBoundsManual(true);
-        dataGraph2.getViewport().setMinX(dataGraph2MinX);
-        dataGraph2.getViewport().setMaxX(dataGraph2MaxX);
-        dataGraph2.getViewport().setYAxisBoundsManual(true);
-        dataGraph2.getViewport().setMinY(dataGraph2MinY);
-        dataGraph2.getViewport().setMaxY(dataGraph2MaxY);
-        /* END initialize GraphView */
-
-        /* BEGIN initialize GraphView3 */
-        // https://github.com/jjoe64/GraphView/wiki
-        dataGraph3 = (GraphView)findViewById(R.id.dataGraph3);
-        dataSeries3 = new LineGraphSeries<>(new DataPoint[]{});
-        dataGraph3.addSeries(dataSeries3);
-        dataGraph3.getViewport().setXAxisBoundsManual(true);
-        dataGraph3.getViewport().setMinX(dataGraph3MinX);
-        dataGraph3.getViewport().setMaxX(dataGraph3MaxX);
-        dataGraph3.getViewport().setYAxisBoundsManual(true);
-        dataGraph3.getViewport().setMinY(dataGraph3MinY);
-        dataGraph3.getViewport().setMaxY(dataGraph3MaxY);
+        dataGraph_joystick.getViewport().setYAxisBoundsManual(true);
+        dataGraph_joystick.getViewport().setMinY(dataGraph1MinY);
+        dataGraph_joystick.getViewport().setMaxY(dataGraph1MaxY);
         /* END initialize GraphView */
 
         // Initialize Volley request queue
-        queue = Volley.newRequestQueue(ChartsActivity.this);
+        queue = Volley.newRequestQueue(JoystickActivity.this);
 
     }
     /**
      * @brief Create JSON file URL from IoT server IP.
-     * @param ip IP address (string)
+     * @param ipAddress IP address (string)
      * @retval GET request URL
      */
     private String getURL(String ipAddress) {
-        return ("http://" + ipAddress + "/" + DATA.FILE_NAME);
+        return ("http://" + ipAddress + "/" + DATA.JOYSTICK_FILE_NAME);
     }
     public void btns_onClick(View v) {
         switch (v.getId()) {
-            case R.id.startBtn: {
+            case R.id.startBtn_joy: {
                 startRequestTimer();
                 break;
             }
-            case R.id.stopBtn: {
+            case R.id.stopBtn_joy: {
                 stopRequestTimerTask();
                 break;
             }
@@ -214,23 +163,23 @@ public class ChartsActivity extends AppCompatActivity {
 
     private double getRawDataFromResponse(String response, String item) {
         JSONObject jObject;
-        double x = Double.NaN;
+        int t = 0;
 
         // Create generic JSON object form string
         try {
             jObject = new JSONObject(response);
         } catch (JSONException e) {
             e.printStackTrace();
-            return x;
+            return t;
         }
 
         // Read chart data form JSON object
         try {
-            x = (double)jObject.get(item);
+            t = (int)jObject.get(item);
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        return x;
+        return t;
     }
 
 
@@ -307,30 +256,17 @@ public class ChartsActivity extends AppCompatActivity {
     /**
      * @brief GET response handling - chart data series updated with IoT server data.
      */
-    private void drawcharts(double temp, double press, double humi)
+    private void drawcharts(int x, int y)
     {
         // update plot series
         double timeStamp = requestTimerTimeStamp / 1000.0; // [sec]
 
         boolean scrollGraph1 = (timeStamp > dataGraph1MaxX);
-        dataSeries1.appendData(new DataPoint(timeStamp, temp), scrollGraph1, sampleQuantity);
+        dataSeriesx.resetData(generateData(x,y));
+        dataSeriesx.appendData(new DataPoint(x, y), scrollGraph1, sampleQuantity);
 
         // refresh chart
-        dataGraph1.onDataChanged(true, true);
-
-        // update plot series
-        boolean scrollGraph2 = (timeStamp > dataGraph2MaxX);
-        dataSeries2.appendData(new DataPoint(timeStamp, press), scrollGraph2, sampleQuantity);
-
-        // refresh chart
-        dataGraph2.onDataChanged(true, true);
-
-        // update plot series
-        boolean scrollGraph3 = (timeStamp > dataGraph3MaxX);
-        dataSeries3.appendData(new DataPoint(timeStamp, humi), scrollGraph3, sampleQuantity);
-
-        // refresh chart
-        dataGraph3.onDataChanged(true, true);
+        dataGraph_joystick.onDataChanged(true, true);
 
     }
     private void responseHandling(String response)
@@ -341,16 +277,38 @@ public class ChartsActivity extends AppCompatActivity {
             requestTimerTimeStamp += getValidTimeStampIncrease(requestTimerCurrentTime);
 
             // get raw data from JSON response
-            double temp = getRawDataFromResponse(response,"temp");
-            double press = getRawDataFromResponse(response,"press");
-            double humi = getRawDataFromResponse(response,"humi");
-            drawcharts(temp,press,humi);
+            int x = (int) getRawDataFromResponse(response,"x");
+            int y = (int) getRawDataFromResponse(response,"y");
+            int z = (int) getRawDataFromResponse(response,"z");
 
 
+            z_val = findViewById(R.id.z_value);
+            //String z_string = int.toString(z);
+            String z_string = String.valueOf(z);
+            String z_text = "Z value: ";
+            String full_z  =z_text + z_string;
+            z_val.setText(full_z);
+
+
+            drawcharts(x,y);
 
             // remember previous time stamp
             requestTimerPreviousTime = requestTimerCurrentTime;
         }
+    }
+    /**
+     * @brief Swaps old Datapoints for new ones.
+     */
+    private DataPoint[] generateData(int x, int y) {
+        int count = 1;
+        DataPoint[] values = new DataPoint[1];
+        for (int i=0; i<count; i++) {
+            int horizontal = x;
+            int vertical = y;
+            DataPoint v = new DataPoint(horizontal, vertical);
+            values[i] = v;
+        }
+        return values;
     }
 
 }

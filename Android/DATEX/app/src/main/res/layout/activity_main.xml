@@ -20,6 +20,7 @@
 
         <Button
             android:id="@+id/button_data"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
@@ -30,10 +31,21 @@
             android:layout_gravity="center"
             />
 
-
+        <Button
+            android:id="@+id/button_rpy"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:onClick="btns_onClick"
+            android:text="RPY"
+            android:visibility="visible"
+            android:layout_gravity="center"
+            />
 
         <Button
             android:id="@+id/button_LED"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="25dp"
@@ -42,8 +54,34 @@
             android:visibility="visible"
             android:layout_gravity="center"
             />
+
+        <Button
+            android:id="@+id/button_joystick"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:onClick="btns_onClick"
+            android:text="Joystick"
+            android:visibility="visible"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/button_tables"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:onClick="btns_onClick"
+            android:text="DATA TABLES"
+            android:visibility="visible"
+            android:layout_gravity="center"
+            />
+
         <Button
             android:id="@+id/button_Settings"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="25dp"
