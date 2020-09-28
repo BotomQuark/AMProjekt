@@ -192,6 +192,8 @@
                       Width="500" Height="500"
                       Model="{Binding JOYPlotModel}"/>
 
+        <TextBlock Grid.Column="1" Visibility="Collapsed" Grid.Row="3" Name="Z_val" HorizontalAlignment="Center" FontSize="30" Text="{Binding Path = Zvalue, UpdateSourceTrigger=PropertyChanged}" Margin="538.6,127.867,274.6,60.067" TextWrapping="Wrap" Width="50" RenderTransformOrigin="0.437,-0.339"/>
+        <TextBlock x:Name="Joy_Z" Visibility="Collapsed" HorizontalAlignment="Center" Text="Z value:" FontSize="32"   RenderTransformOrigin="0.567,-0.545" VerticalAlignment="Center" Margin="420,123.867,329.6,60.067" Grid.Row="3" Grid.Column="1" Width="115"/>
 
 
         <!-- Steering senseHat LEDs by sending RGB color and either pixel address or text -->
@@ -243,7 +245,7 @@
         </ListBox>
 
         <!-- Table of all the info sent by PI displayed as raw data -->
-        <ListBox  Visibility="Visible" Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" Name="Data_table" HorizontalContentAlignment="Stretch" SelectionMode="Extended">
+        <ListBox  Visibility="Collapsed" Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" Name="Data_table" HorizontalContentAlignment="Stretch" SelectionMode="Extended">
             <Grid>
 
                 <Grid.RowDefinitions>

@@ -28,6 +28,8 @@ namespace datex.View
 
 
 
+
+
         public MainWindow()
         {
             InitializeComponent();
@@ -52,6 +54,12 @@ namespace datex.View
             this.DataPlotView_press.Visibility = Visibility.Collapsed;
             this.DataPlotView_humi.Visibility = Visibility.Collapsed;
             this.Data_table.Visibility = Visibility.Collapsed;
+            this.RPYPlotView_roll.Visibility = Visibility.Collapsed;
+            this.RPYPlotView_pitch.Visibility = Visibility.Collapsed;
+            this.RPYPlotView_yaw.Visibility = Visibility.Collapsed;
+            this.JOYPlotView.Visibility = Visibility.Collapsed;
+            this.Joy_Z.Visibility = Visibility.Collapsed;
+            this.Z_val.Visibility = Visibility.Collapsed;
 
             if (this.LED1.Visibility == Visibility.Visible && this.LED2.Visibility == Visibility.Visible)
             {
@@ -76,6 +84,8 @@ namespace datex.View
             this.RPYPlotView_pitch.Visibility = Visibility.Collapsed;
             this.RPYPlotView_yaw.Visibility = Visibility.Collapsed;
             this.JOYPlotView.Visibility = Visibility.Collapsed;
+            this.Joy_Z.Visibility = Visibility.Collapsed;
+            this.Z_val.Visibility = Visibility.Collapsed;
 
 
 
@@ -107,6 +117,8 @@ namespace datex.View
             this.DataPlotView_humi.Visibility = Visibility.Collapsed;
             this.Data_table.Visibility = Visibility.Collapsed;
             this.JOYPlotView.Visibility = Visibility.Collapsed;
+            this.Joy_Z.Visibility = Visibility.Collapsed;
+            this.Z_val.Visibility = Visibility.Collapsed;
 
 
             if (this.RPYPlotView_roll.Visibility == Visibility.Visible && this.RPYPlotView_pitch.Visibility == Visibility.Visible && this.RPYPlotView_yaw.Visibility == Visibility.Visible)
@@ -136,18 +148,25 @@ namespace datex.View
             this.RPYPlotView_roll.Visibility = Visibility.Collapsed;
             this.RPYPlotView_pitch.Visibility = Visibility.Collapsed;
             this.RPYPlotView_yaw.Visibility = Visibility.Collapsed;
+            this.Data_table.Visibility = Visibility.Collapsed;
 
 
 
 
-            if (this.JOYPlotView.Visibility == Visibility.Visible)
+            if (this.JOYPlotView.Visibility == Visibility.Visible && this.Joy_Z.Visibility == Visibility.Visible && this.Z_val.Visibility == Visibility.Visible)
             {
 
                 this.JOYPlotView.Visibility = Visibility.Collapsed;
+                this.Joy_Z.Visibility = Visibility.Collapsed;
+                this.Z_val.Visibility = Visibility.Collapsed;
+
             }
             else
             {
                 this.JOYPlotView.Visibility = Visibility.Visible;
+                this.Joy_Z.Visibility = Visibility.Visible;
+                this.Z_val.Visibility = Visibility.Visible;
+
             }
         }
 
@@ -162,6 +181,8 @@ namespace datex.View
             this.RPYPlotView_pitch.Visibility = Visibility.Collapsed;
             this.RPYPlotView_yaw.Visibility = Visibility.Collapsed;
             this.JOYPlotView.Visibility = Visibility.Collapsed;
+            this.Joy_Z.Visibility = Visibility.Collapsed;
+            this.Z_val.Visibility = Visibility.Collapsed;
 
             if (this.Data_table.Visibility == Visibility.Visible)
             {

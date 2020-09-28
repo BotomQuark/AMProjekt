@@ -296,3 +296,114 @@ D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\datex.csproj.
 D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\datex.csproj.CopyComplete
 D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\datex.exe
 D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\datex.pdb
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\bin\Debug\datex.exe.config
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\bin\Debug\datex.exe
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\bin\Debug\datex.pdb
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\bin\Debug\Newtonsoft.Json.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\bin\Debug\OxyPlot.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\bin\Debug\OxyPlot.Wpf.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\bin\Debug\WPFToolkit.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\bin\Debug\Newtonsoft.Json.xml
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\bin\Debug\OxyPlot.xml
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\bin\Debug\OxyPlot.Wpf.xml
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\datex.csprojAssemblyReference.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Core.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Toolkit.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\View\Themes\MetroDark\Styles.Shared.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\View\Themes\MetroDark\Styles.WPF.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\View\Themes\MetroDark\Theme.Colors.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Core.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Toolkit.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\View\Themes\Metro\Styles.Shared.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\View\Themes\Metro\Styles.WPF.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\View\Themes\Metro\Theme.Colors.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\View\MainWindow.g.cs
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\App.g.cs
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\datex_MarkupCompile.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\datex_MarkupCompile.lref
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\App.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\View\MainWindow.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\datex.g.resources
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\datex.Properties.Resources.resources
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\datex.csproj.GenerateResource.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\datex.csproj.CoreCompileInputs.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\datex.csproj.CopyComplete
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\datex.exe
+D:\Studia\6semestr\AMlab\Nowy folder\datex\datex\obj\Debug\datex.pdb
+D:\AM materiały\datex\datex\bin\Debug\datex.exe.config
+D:\AM materiały\datex\datex\bin\Debug\datex.exe
+D:\AM materiały\datex\datex\bin\Debug\datex.pdb
+D:\AM materiały\datex\datex\bin\Debug\Newtonsoft.Json.dll
+D:\AM materiały\datex\datex\bin\Debug\OxyPlot.dll
+D:\AM materiały\datex\datex\bin\Debug\OxyPlot.Wpf.dll
+D:\AM materiały\datex\datex\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+D:\AM materiały\datex\datex\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+D:\AM materiały\datex\datex\bin\Debug\WPFToolkit.dll
+D:\AM materiały\datex\datex\bin\Debug\Newtonsoft.Json.xml
+D:\AM materiały\datex\datex\bin\Debug\OxyPlot.xml
+D:\AM materiały\datex\datex\bin\Debug\OxyPlot.Wpf.xml
+D:\AM materiały\datex\datex\obj\Debug\datex.csprojAssemblyReference.cache
+D:\AM materiały\datex\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Core.Implicit.baml
+D:\AM materiały\datex\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Toolkit.Implicit.baml
+D:\AM materiały\datex\datex\obj\Debug\View\Themes\MetroDark\Styles.Shared.baml
+D:\AM materiały\datex\datex\obj\Debug\View\Themes\MetroDark\Styles.WPF.baml
+D:\AM materiały\datex\datex\obj\Debug\View\Themes\MetroDark\Theme.Colors.baml
+D:\AM materiały\datex\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Core.Implicit.baml
+D:\AM materiały\datex\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Toolkit.Implicit.baml
+D:\AM materiały\datex\datex\obj\Debug\View\Themes\Metro\Styles.Shared.baml
+D:\AM materiały\datex\datex\obj\Debug\View\Themes\Metro\Styles.WPF.baml
+D:\AM materiały\datex\datex\obj\Debug\View\Themes\Metro\Theme.Colors.baml
+D:\AM materiały\datex\datex\obj\Debug\View\MainWindow.g.cs
+D:\AM materiały\datex\datex\obj\Debug\App.g.cs
+D:\AM materiały\datex\datex\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\AM materiały\datex\datex\obj\Debug\datex_MarkupCompile.cache
+D:\AM materiały\datex\datex\obj\Debug\datex_MarkupCompile.lref
+D:\AM materiały\datex\datex\obj\Debug\App.baml
+D:\AM materiały\datex\datex\obj\Debug\View\MainWindow.baml
+D:\AM materiały\datex\datex\obj\Debug\datex.g.resources
+D:\AM materiały\datex\datex\obj\Debug\datex.Properties.Resources.resources
+D:\AM materiały\datex\datex\obj\Debug\datex.csproj.GenerateResource.cache
+D:\AM materiały\datex\datex\obj\Debug\datex.csproj.CoreCompileInputs.cache
+D:\AM materiały\datex\datex\obj\Debug\datex.csproj.CopyComplete
+D:\AM materiały\datex\datex\obj\Debug\datex.exe
+D:\AM materiały\datex\datex\obj\Debug\datex.pdb
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\bin\Debug\datex.exe.config
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\bin\Debug\datex.exe
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\bin\Debug\datex.pdb
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\bin\Debug\Newtonsoft.Json.dll
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\bin\Debug\OxyPlot.dll
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\bin\Debug\OxyPlot.Wpf.dll
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\bin\Debug\WPFToolkit.dll
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\bin\Debug\Newtonsoft.Json.xml
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\bin\Debug\OxyPlot.xml
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\bin\Debug\OxyPlot.Wpf.xml
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\datex.csprojAssemblyReference.cache
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Core.Implicit.baml
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Toolkit.Implicit.baml
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\View\Themes\MetroDark\Styles.Shared.baml
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\View\Themes\MetroDark\Styles.WPF.baml
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\View\Themes\MetroDark\Theme.Colors.baml
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Core.Implicit.baml
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Toolkit.Implicit.baml
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\View\Themes\Metro\Styles.Shared.baml
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\View\Themes\Metro\Styles.WPF.baml
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\View\Themes\Metro\Theme.Colors.baml
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\View\MainWindow.g.cs
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\App.g.cs
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\datex_MarkupCompile.cache
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\datex_MarkupCompile.lref
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\App.baml
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\View\MainWindow.baml
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\datex.g.resources
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\datex.Properties.Resources.resources
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\datex.csproj.GenerateResource.cache
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\datex.csproj.CoreCompileInputs.cache
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\datex.csproj.CopyComplete
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\datex.exe
+D:\Studia\6semestr\AMlab\PROJEKT\datexfinalfinal\datex\obj\Debug\datex.pdb
