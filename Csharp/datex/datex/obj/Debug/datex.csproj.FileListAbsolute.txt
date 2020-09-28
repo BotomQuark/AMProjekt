@@ -1,0 +1,298 @@
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\datex.csprojAssemblyReference.cache
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Core.Implicit.baml
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Toolkit.Implicit.baml
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\View\Themes\MetroDark\Styles.Shared.baml
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\View\Themes\MetroDark\Styles.WPF.baml
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\View\Themes\MetroDark\Theme.Colors.baml
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Core.Implicit.baml
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Toolkit.Implicit.baml
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\View\Themes\Metro\Styles.Shared.baml
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\View\Themes\Metro\Styles.WPF.baml
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\View\Themes\Metro\Theme.Colors.baml
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\View\MainWindow.g.cs
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\App.g.cs
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\datex_MarkupCompile.cache
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\datex_MarkupCompile.lref
+C:\Users\Acer\source\repos\datex\datex\bin\Debug\datex.exe.config
+C:\Users\Acer\source\repos\datex\datex\bin\Debug\datex.exe
+C:\Users\Acer\source\repos\datex\datex\bin\Debug\datex.pdb
+C:\Users\Acer\source\repos\datex\datex\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Acer\source\repos\datex\datex\bin\Debug\OxyPlot.dll
+C:\Users\Acer\source\repos\datex\datex\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\Acer\source\repos\datex\datex\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\Acer\source\repos\datex\datex\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\Acer\source\repos\datex\datex\bin\Debug\WPFToolkit.dll
+C:\Users\Acer\source\repos\datex\datex\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Acer\source\repos\datex\datex\bin\Debug\OxyPlot.xml
+C:\Users\Acer\source\repos\datex\datex\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\App.baml
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\View\MainWindow.baml
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\datex.g.resources
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\datex.Properties.Resources.resources
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\datex.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\datex.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\datex.csproj.CopyComplete
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\datex.exe
+C:\Users\Acer\source\repos\datex\datex\obj\Debug\datex.pdb
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\bin\Debug\datex.exe.config
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\bin\Debug\datex.exe
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\bin\Debug\datex.pdb
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\bin\Debug\OxyPlot.dll
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\bin\Debug\WPFToolkit.dll
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\bin\Debug\OxyPlot.xml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\datex.csprojAssemblyReference.cache
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Core.Implicit.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Toolkit.Implicit.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\View\Themes\MetroDark\Styles.Shared.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\View\Themes\MetroDark\Styles.WPF.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\View\Themes\MetroDark\Theme.Colors.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Core.Implicit.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Toolkit.Implicit.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\View\Themes\Metro\Styles.Shared.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\View\Themes\Metro\Styles.WPF.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\View\Themes\Metro\Theme.Colors.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\View\MainWindow.g.cs
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\App.g.cs
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\datex_MarkupCompile.cache
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\datex_MarkupCompile.lref
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\App.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\View\MainWindow.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\datex.g.resources
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\datex.Properties.Resources.resources
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\datex.csproj.GenerateResource.cache
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\datex.csproj.CoreCompileInputs.cache
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\datex.csproj.CopyComplete
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\datex.exe
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\datex.pdb
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\View\ConfigWindow.g.cs
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex\datex\obj\Debug\View\ConfigWindow.baml
+C:\Users\Acer\Desktop\datex\datex\bin\Debug\datex.exe.config
+C:\Users\Acer\Desktop\datex\datex\bin\Debug\datex.exe
+C:\Users\Acer\Desktop\datex\datex\bin\Debug\datex.pdb
+C:\Users\Acer\Desktop\datex\datex\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Acer\Desktop\datex\datex\bin\Debug\OxyPlot.dll
+C:\Users\Acer\Desktop\datex\datex\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\Acer\Desktop\datex\datex\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\Acer\Desktop\datex\datex\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\Acer\Desktop\datex\datex\bin\Debug\WPFToolkit.dll
+C:\Users\Acer\Desktop\datex\datex\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Acer\Desktop\datex\datex\bin\Debug\OxyPlot.xml
+C:\Users\Acer\Desktop\datex\datex\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\datex.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Core.Implicit.baml
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Toolkit.Implicit.baml
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\View\Themes\MetroDark\Styles.Shared.baml
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\View\Themes\MetroDark\Styles.WPF.baml
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\View\Themes\MetroDark\Theme.Colors.baml
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Core.Implicit.baml
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Toolkit.Implicit.baml
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\View\Themes\Metro\Styles.Shared.baml
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\View\Themes\Metro\Styles.WPF.baml
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\View\Themes\Metro\Theme.Colors.baml
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\View\MainWindow.g.cs
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\App.g.cs
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\datex_MarkupCompile.cache
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\datex_MarkupCompile.lref
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\App.baml
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\View\MainWindow.baml
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\datex.g.resources
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\datex.Properties.Resources.resources
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\datex.csproj.GenerateResource.cache
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\datex.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\datex.csproj.CopyComplete
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\datex.exe
+C:\Users\Acer\Desktop\datex\datex\obj\Debug\datex.pdb
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\bin\Debug\datex.exe.config
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\bin\Debug\datex.exe
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\bin\Debug\datex.pdb
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\bin\Debug\OxyPlot.dll
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\bin\Debug\WPFToolkit.dll
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\bin\Debug\OxyPlot.xml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\datex.csprojAssemblyReference.cache
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Core.Implicit.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Toolkit.Implicit.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\View\Themes\MetroDark\Styles.Shared.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\View\Themes\MetroDark\Styles.WPF.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\View\Themes\MetroDark\Theme.Colors.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Core.Implicit.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Toolkit.Implicit.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\View\Themes\Metro\Styles.Shared.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\View\Themes\Metro\Styles.WPF.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\View\Themes\Metro\Theme.Colors.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\View\MainWindow.g.cs
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\App.g.cs
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\datex_MarkupCompile.cache
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\datex_MarkupCompile.lref
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\App.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\View\MainWindow.baml
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\datex.g.resources
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\datex.Properties.Resources.resources
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\datex.csproj.GenerateResource.cache
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\datex.csproj.CoreCompileInputs.cache
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\datex.csproj.CopyComplete
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\datex.exe
+C:\Users\kubex\Desktop\RPI_nauka\C#\datex_ostateczny\datex\datex\obj\Debug\datex.pdb
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\bin\Debug\datex.exe.config
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\bin\Debug\datex.exe
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\bin\Debug\datex.pdb
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\bin\Debug\Newtonsoft.Json.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\bin\Debug\OxyPlot.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\bin\Debug\OxyPlot.Wpf.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\bin\Debug\WPFToolkit.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\bin\Debug\Newtonsoft.Json.xml
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\bin\Debug\OxyPlot.xml
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\bin\Debug\OxyPlot.Wpf.xml
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\datex.csprojAssemblyReference.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Core.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Toolkit.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\View\Themes\MetroDark\Styles.Shared.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\View\Themes\MetroDark\Styles.WPF.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\View\Themes\MetroDark\Theme.Colors.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Core.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Toolkit.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\View\Themes\Metro\Styles.Shared.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\View\Themes\Metro\Styles.WPF.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\View\Themes\Metro\Theme.Colors.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\View\MainWindow.g.cs
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\App.g.cs
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\datex_MarkupCompile.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\datex_MarkupCompile.lref
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\App.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\View\MainWindow.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\datex.g.resources
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\datex.Properties.Resources.resources
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\datex.csproj.GenerateResource.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\datex.csproj.CoreCompileInputs.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\datex.csproj.CopyComplete
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\datex.exe
+D:\Studia\6semestr\AMlab\Nowy folder\datexledy2309c#\datex\obj\Debug\datex.pdb
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\bin\Debug\datex.exe.config
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\bin\Debug\datex.exe
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\bin\Debug\datex.pdb
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\bin\Debug\Newtonsoft.Json.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\bin\Debug\OxyPlot.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\bin\Debug\OxyPlot.Wpf.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\bin\Debug\WPFToolkit.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\bin\Debug\Newtonsoft.Json.xml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\bin\Debug\OxyPlot.xml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\bin\Debug\OxyPlot.Wpf.xml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\datex.csprojAssemblyReference.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Core.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Toolkit.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\View\Themes\MetroDark\Styles.Shared.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\View\Themes\MetroDark\Styles.WPF.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\View\Themes\MetroDark\Theme.Colors.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Core.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Toolkit.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\View\Themes\Metro\Styles.Shared.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\View\Themes\Metro\Styles.WPF.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\View\Themes\Metro\Theme.Colors.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\View\MainWindow.g.cs
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\App.g.cs
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\datex_MarkupCompile.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\datex_MarkupCompile.lref
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\App.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\View\MainWindow.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\datex.g.resources
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\datex.Properties.Resources.resources
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\datex.csproj.GenerateResource.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\datex.csproj.CoreCompileInputs.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\datex.csproj.CopyComplete
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\datex.exe
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2409_macias\datex\obj\Debug\datex.pdb
+D:\AM materiały\datex_c#_2609_macias\datex\bin\Debug\datex.exe.config
+D:\AM materiały\datex_c#_2609_macias\datex\bin\Debug\datex.exe
+D:\AM materiały\datex_c#_2609_macias\datex\bin\Debug\datex.pdb
+D:\AM materiały\datex_c#_2609_macias\datex\bin\Debug\Newtonsoft.Json.dll
+D:\AM materiały\datex_c#_2609_macias\datex\bin\Debug\OxyPlot.dll
+D:\AM materiały\datex_c#_2609_macias\datex\bin\Debug\OxyPlot.Wpf.dll
+D:\AM materiały\datex_c#_2609_macias\datex\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+D:\AM materiały\datex_c#_2609_macias\datex\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+D:\AM materiały\datex_c#_2609_macias\datex\bin\Debug\WPFToolkit.dll
+D:\AM materiały\datex_c#_2609_macias\datex\bin\Debug\Newtonsoft.Json.xml
+D:\AM materiały\datex_c#_2609_macias\datex\bin\Debug\OxyPlot.xml
+D:\AM materiały\datex_c#_2609_macias\datex\bin\Debug\OxyPlot.Wpf.xml
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\datex.csprojAssemblyReference.cache
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Core.Implicit.baml
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Toolkit.Implicit.baml
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\View\Themes\MetroDark\Styles.Shared.baml
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\View\Themes\MetroDark\Styles.WPF.baml
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\View\Themes\MetroDark\Theme.Colors.baml
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Core.Implicit.baml
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Toolkit.Implicit.baml
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\View\Themes\Metro\Styles.Shared.baml
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\View\Themes\Metro\Styles.WPF.baml
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\View\Themes\Metro\Theme.Colors.baml
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\View\MainWindow.g.cs
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\App.g.cs
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\datex_MarkupCompile.cache
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\datex_MarkupCompile.lref
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\App.baml
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\View\MainWindow.baml
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\datex.g.resources
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\datex.Properties.Resources.resources
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\datex.csproj.GenerateResource.cache
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\datex.csproj.CoreCompileInputs.cache
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\datex.csproj.CopyComplete
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\datex.exe
+D:\AM materiały\datex_c#_2609_macias\datex\obj\Debug\datex.pdb
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\bin\Debug\datex.exe.config
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\bin\Debug\datex.exe
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\bin\Debug\datex.pdb
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\bin\Debug\Newtonsoft.Json.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\bin\Debug\OxyPlot.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\bin\Debug\OxyPlot.Wpf.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\bin\Debug\WPFToolkit.dll
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\bin\Debug\Newtonsoft.Json.xml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\bin\Debug\OxyPlot.xml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\bin\Debug\OxyPlot.Wpf.xml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\datex.csprojAssemblyReference.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Core.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\View\Themes\MetroDark\MetroDark.MSControls.Toolkit.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\View\Themes\MetroDark\Styles.Shared.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\View\Themes\MetroDark\Styles.WPF.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\View\Themes\MetroDark\Theme.Colors.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Core.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\View\Themes\Metro\Metro.MSControls.Toolkit.Implicit.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\View\Themes\Metro\Styles.Shared.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\View\Themes\Metro\Styles.WPF.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\View\Themes\Metro\Theme.Colors.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\View\MainWindow.g.cs
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\App.g.cs
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\datex_MarkupCompile.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\datex_MarkupCompile.lref
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\App.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\View\MainWindow.baml
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\datex.g.resources
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\datex.Properties.Resources.resources
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\datex.csproj.GenerateResource.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\datex.csproj.CoreCompileInputs.cache
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\datex.csproj.CopyComplete
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\datex.exe
+D:\Studia\6semestr\AMlab\Nowy folder\datex_c#_2709\datex\obj\Debug\datex.pdb
