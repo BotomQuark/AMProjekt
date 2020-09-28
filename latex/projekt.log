@@ -1,0 +1,342 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.4.8)  24 SEP 2020 21:36
+entering extended mode
+**./projekt.tex
+(projekt.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06> (B:\LaTex\MikTex\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(B:\LaTex\MikTex\tex/latex/base\size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(B:\LaTex\MikTex\tex/latex/polski\polski.sty
+Package: polski 2017/05/04 v1.3.4 Polish language package
+
+   Switching to Polish text encoding and Polish maths fonts.
+(B:\LaTex\MikTex\tex/latex/base\ot4enc.def
+File: ot4enc.def 2020/02/11 v2.0o Standard LaTeX file
+Now handling font encoding OT4 ...
+... no UTF-8 mapping file for font encoding OT4
+)
+LaTeX Font Info:    Trying to load font information for OT4+cmr on input line 3
+60.
+
+(B:\LaTex\MikTex\tex/latex/polski\ot4cmr.fd
+File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT4/cmr/bx/n on input line 360.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT4/cmss/m/n on input line 360.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT4/cmr/m/it on input line 360.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT4/cmtt/m/n on input line 360.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT4/cmss/bx/n on input line 360.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT4/cmr/bx/it on input line 360.
+LaTeX Font Info:    Encoding `OT1' has changed to `OT4' for symbol font
+(Font)              `operators' in the math version `normal' on input line 360.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT4/cmr/m/n on input line 360.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/plm/m/it on input line 360.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/plsy/m/n on input line 360.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/plex/m/n on input line 360.
+LaTeX Font Info:    Encoding `OT1' has changed to `OT4' for symbol font
+(Font)              `operators' in the math version `bold' on input line 360.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT4/cmr/bx/n on input line 360.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/plm/b/it on input line 360.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 360.
+)
+(B:\LaTex\MikTex\tex/latex/base\inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(B:\LaTex\MikTex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(B:\LaTex\MikTex\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(B:\LaTex\MikTex\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(B:\LaTex\MikTex\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(B:\LaTex\MikTex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(B:\LaTex\MikTex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(B:\LaTex\MikTex\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(B:\LaTex\MikTex\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(B:\LaTex\MikTex\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count175
+\Gm@cntv=\count176
+\c@Gm@tempcnt=\count177
+\Gm@bindingoffset=\dimen137
+\Gm@wd@mp=\dimen138
+\Gm@odd@mp=\dimen139
+\Gm@even@mp=\dimen140
+\Gm@layoutwidth=\dimen141
+\Gm@layoutheight=\dimen142
+\Gm@layouthoffset=\dimen143
+\Gm@layoutvoffset=\dimen144
+\Gm@dimlist=\toks18
+
+(B:\LaTex\MikTex\tex/latex/geometry\geometry.cfg))
+(B:\LaTex\MikTex\tex/latex/listings\listings.sty
+\lst@mode=\count178
+\lst@gtempboxa=\box45
+\lst@token=\toks19
+\lst@length=\count179
+\lst@currlwidth=\dimen145
+\lst@column=\count180
+\lst@pos=\count181
+\lst@lostspace=\dimen146
+\lst@width=\dimen147
+\lst@newlines=\count182
+\lst@lineno=\count183
+\lst@maxwidth=\dimen148
+
+(B:\LaTex\MikTex\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count184
+\lst@skipnumbers=\count185
+\lst@framebox=\box46
+)
+(B:\LaTex\MikTex\tex/latex/listings\listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+(B:\LaTex\MikTex\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(B:\LaTex\MikTex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(B:\LaTex\MikTex\tex/latex/l3backend\l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count186
+\l__pdf_internal_box=\box47
+) (projekt.aux)
+\openout1 = `projekt.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+
+(B:\LaTex\MikTex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count187
+\scratchdimen=\dimen149
+\scratchbox=\box48
+\nofMPsegments=\count188
+\nofMParguments=\count189
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count190
+\MPscratchDim=\dimen150
+\MPnumerator=\count191
+\makeMPintoPDFobject=\count192
+\everyMPtoPDFconversion=\toks21
+) (B:\LaTex\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
+* v-part:(T,H,B)=(54.2025pt, 686.56499pt, 54.2025pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=505.89pt
+* \textheight=686.56499pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-18.06749pt
+* \topmargin=-55.06749pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count193
+<logo.png, id=1, 436.63126pt x 437.635pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 72.
+(pdftex.def)             Requested size: 75.8804pt x 76.05304pt.
+[1
+
+{C:/Users/BottomQuark/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./log
+o.png>]
+LaTeX Font Info:    Trying to load font information for OML+plm on input line 1
+13.
+ (B:\LaTex\MikTex\tex/latex/polski\omlplm.fd
+File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Trying to load font information for OMS+plsy on input line 
+113.
+
+(B:\LaTex\MikTex\tex/latex/polski\omsplsy.fd
+File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Trying to load font information for OMX+plex on input line 
+113.
+
+(B:\LaTex\MikTex\tex/latex/polski\omxplex.fd
+File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <10> on input line 113.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <7> on input line 113.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <5> on input line 113.
+
+(B:\LaTex\MikTex\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 
+114.
+
+(B:\LaTex\MikTex\tex/latex/polski\ot4cmtt.fd
+File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+) [1] [2] [3]
+<./web/webTree.png, id=26, 1160.08406pt x 427.5975pt>
+File: ./web/webTree.png Graphic file (type png)
+<use ./web/webTree.png>
+Package pdftex.def Info: ./web/webTree.png  used on input line 242.
+(pdftex.def)             Requested size: 505.89pt x 186.46664pt.
+
+(B:\LaTex\MikTex\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+(B:\LaTex\MikTex\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+) [4 <./web/webTree.png>]
+<./web/webUI.png, id=31, 755.82375pt x 508.90125pt>
+File: ./web/webUI.png Graphic file (type png)
+<use ./web/webUI.png>
+Package pdftex.def Info: ./web/webUI.png  used on input line 269.
+(pdftex.def)             Requested size: 401.50146pt x 270.32983pt.
+<./web/webUI_config.png, id=32, 1169.11781pt x 469.755pt>
+File: ./web/webUI_config.png Graphic file (type png)
+<use ./web/webUI_config.png>
+Package pdftex.def Info: ./web/webUI_config.png  used on input line 275.
+(pdftex.def)             Requested size: 505.89pt x 203.26659pt.
+
+[5 <./web/webUI.png> <./web/webUI_config.png>]
+
+LaTeX Font Warning: Font shape `OT4/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `OT4/cmtt/m/n' tried instead on input line 280.
+
+[6] [7]
+<./web/webUI_datatable.png, id=43, 989.19562pt x 470.50781pt>
+File: ./web/webUI_datatable.png Graphic file (type png)
+<use ./web/webUI_datatable.png>
+Package pdftex.def Info: ./web/webUI_datatable.png  used on input line 426.
+(pdftex.def)             Requested size: 401.50146pt x 190.97101pt.
+ [8 <./web/webUI_datatable.png>] [9] [10] [11] [12] [13] (projekt.aux) ) 
+Here is how much of TeX's memory you used:
+ 4616 strings out of 480934
+ 61272 string characters out of 2915275
+ 764556 words of memory out of 3000000
+ 20447 multiletter control sequences out of 15000+200000
+ 543009 words of font info for 49 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,7n,53p,714b,1866s stack positions out of 5000i,500n,10000p,200000b,50000s
+{B:/LaT
+ex/MikTex/fonts/enc/dvips/pl/plrm.enc}{B:/LaTex/MikTex/fonts/enc/dvips/pl/pltt.
+enc}{B:/LaTex/MikTex/fonts/enc/dvips/pl/plsc.enc}{B:/LaTex/MikTex/fonts/enc/dvi
+ps/pl/plmi.enc} <C:\Users\BottomQuark\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
+jknappen/ec/dpi600\tcrm1000.pk>{B:/LaTex/MikTex/fonts/enc/dvips/pl/plit.enc}<B:
+/LaTex/MikTex/fonts/type1/public/pl/plbx10.pfb><B:/LaTex/MikTex/fonts/type1/pub
+lic/pl/plbx12.pfb><B:/LaTex/MikTex/fonts/type1/public/pl/plcsc10.pfb><B:/LaTex/
+MikTex/fonts/type1/public/pl/plmi10.pfb><B:/LaTex/MikTex/fonts/type1/public/pl/
+plr10.pfb><B:/LaTex/MikTex/fonts/type1/public/pl/plr12.pfb><B:/LaTex/MikTex/fon
+ts/type1/public/pl/plr5.pfb><B:/LaTex/MikTex/fonts/type1/public/pl/plti12.pfb><
+B:/LaTex/MikTex/fonts/type1/public/pl/pltt8.pfb>
+Output written on projekt.pdf (14 pages, 333637 bytes).
+PDF statistics:
+ 101 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+
