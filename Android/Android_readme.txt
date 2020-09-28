@@ -1,1 +1,0 @@
-Main coder:Jakub COdogni/Maciej Paderecki
