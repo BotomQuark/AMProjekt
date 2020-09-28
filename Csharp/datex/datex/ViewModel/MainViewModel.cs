@@ -42,6 +42,18 @@ namespace datex.ViewModel
         * @param R , G, B color data.
         */
 
+        private double _Zvalue;
+
+        public double Zvalue
+        {
+            get { return _Zvalue; }
+            set
+            {
+                _Zvalue = value;
+                OnPropertyChanged("Zvalue");
+            }
+        }
+
         public string IpAddress
         {
             get
@@ -160,7 +172,7 @@ namespace datex.ViewModel
 
 
         //public string _path = $"..\\config.json";
-        public string _path = $"D:\\Studia\\6semestr\\AMlab\\Nowy folder\\datex_c#_2709\\config.json";
+        public string _path = $"D:\\Studia\\6semestr\\AMlab\\Nowy folder\\datex\\config.json";
 
         public class Configjson
         {
@@ -186,6 +198,8 @@ namespace datex.ViewModel
         public ButtonCommand StopButton { get; set; }
         public ButtonCommand UpdateConfigButton { get; set; }
         public ButtonCommand DefaultConfigButton { get; set; }
+
+        public double Z_value { get; set; }
         #endregion
 
         #region Fields
@@ -317,9 +331,6 @@ namespace datex.ViewModel
                 Position = AxisPosition.Bottom,
                 MajorGridlineStyle = OxyPlot.LineStyle.Solid,
                 MinorGridlineStyle = OxyPlot.LineStyle.Solid,
-                // Minimum = 0,
-                //Maximum = config.XAxisMax,
-                // PositionAtZeroCrossing = true,
                 Key = "Horizontal",
                 Title = "X"
             });
@@ -328,7 +339,6 @@ namespace datex.ViewModel
                 Position = AxisPosition.Left,
                 MajorGridlineStyle = OxyPlot.LineStyle.Solid,
                 MinorGridlineStyle = OxyPlot.LineStyle.Solid,
-                //PositionAtZeroCrossing = true,
                 Key = "Vertical",
                 Title = "Y"
             });
@@ -343,11 +353,7 @@ namespace datex.ViewModel
             RPYPlotModel.Series.Add(new LineSeries() {Color = OxyColor.Parse("255,0,0")});
             RPYPlotModel2.Series.Add(new LineSeries() {Color = OxyColor.Parse("0,255,0")});
             RPYPlotModel3.Series.Add(new LineSeries() {Color = OxyColor.Parse("0,0,255")}); 
-            JOYPlotModel.Series.Add(new LineSeries() { 
-                Color = OxyColor.Parse("#FFFF0000"), 
-                MarkerType = OxyPlot.MarkerType.Circle, 
-                MarkerSize = 4 
-            });
+            JOYPlotModel.Series.Add(new LineSeries() { Color = OxyColor.Parse("#FFFF0000"), MarkerType = OxyPlot.MarkerType.Circle,MarkerSize = 4});
 
 
             StartButton = new ButtonCommand(StartTimer);
@@ -491,12 +497,11 @@ namespace datex.ViewModel
             JOYPlotModel.InvalidatePlot(true);
         }
 
-
-
         /**
           * @brief Asynchronous led update procedure with single LED address
           //* @param X, Y - position of LED, R,G,B - color set
           */
+
         private async void Send_Led_Data()
         {
             string R_s = R.ToString();
@@ -584,6 +589,8 @@ namespace datex.ViewModel
                 UpdatePlot6(timeStamp / 1000.0, (double)resposneJson.yaw);
 
                 UpdatePlotJoy((double)resposneJson.x, (double)resposneJson.y);
+
+                Zvalue = (double)resposneJson.z;
 
 #else
                 ServerData resposneJson = JsonConvert.DeserializeObject<ServerData>(responseText);
