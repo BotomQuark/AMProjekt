@@ -1,1 +1,1 @@
-Main coder: Krzysztof Borowski
+Main coder: Maciej Paderecki
