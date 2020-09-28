@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ledHeight">24dp</dimen>
+    <dimen name="ledMarginTopBottom">2dp</dimen>
+    <dimen name="ledMarginLeftRight">2dp</dimen>
+    <color name="ledDefaultColour">#FFAAAAAA</color>
+</resources>
